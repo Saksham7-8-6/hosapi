@@ -23,18 +23,12 @@ const productSchema=new mongoose.Schema({
     company:{
         type:String,
         enum:{
-            values:['apple','samsung','dell','mi'],
-            message:`{Value} is not supported`
-        }
+            values:['Apple','Samsung','Nokia','Mi',"Google"],
+            message:`{VALUE} is not supported`,
+        },
     },
 })
 
 module.exports=mongoose.model('Product',productSchema);
 
 
-// name:"iphone",
-//     price:154,
-//     featured:false,
-//     rating:3.5,
-//     createdAt:"2012-23-2424-23.242.4242",
-//     company:"Apple",

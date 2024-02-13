@@ -1,0 +1,33 @@
+
+[
+    {
+    "name":"iphone64",
+    "price":1354,
+    "featured":true,
+    "company":"Apple"
+    },
+     {
+    "name":"Samsung23",
+    "price":2154,
+    "featured":false,
+    "company":"Samsung"
+    },
+     {
+    "name":"Mi23",
+    "price":1544,
+    "featured":true,
+    "company":"Mi"
+    },
+     {
+    "name":"nokia323",
+    "price":14,
+    "featured":false,
+    "company":"Nokia"
+    },
+     {
+    "name":"Google",
+    "price":1884,
+    "featured":true,
+    "company":"Google"
+    }
+]
