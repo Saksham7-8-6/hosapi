@@ -3,7 +3,7 @@ const products = require("../models/products");
 
 const getAllProducts=async (req,res)=>{
     // console.log(req.query);
-    const {company,name,featured,sort}=req.query;
+    const {company,name,featured,sort,select}=req.query;
     const queryObj={};
     
     if(company){
@@ -21,6 +21,11 @@ const getAllProducts=async (req,res)=>{
     if(sort){
         let sortfix=sort.replace(","," ");
         apidata=apidata.sort(sortfix);
+
+    }
+    if(select){
+        let sortfix=select.split(",").join(" ");
+        apidata=apidata.select(sortfix);
 
     }
     console.log(queryObj);
