@@ -1,7 +1,7 @@
 
 [
     {
-    "name":"iphone64",
+    "name":"Iphone64",
     "price":1354,
     "featured":true,
     "company":"Apple"
@@ -19,7 +19,7 @@
     "company":"Mi"
     },
      {
-    "name":"nokia323",
+    "name":"Nokia323",
     "price":14,
     "featured":false,
     "company":"Nokia"

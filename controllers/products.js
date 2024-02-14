@@ -23,6 +23,7 @@ const getAllProducts=async (req,res)=>{
         apidata=apidata.sort(sortfix);
 
     }
+    console.log(queryObj);
     const producter=await apidata;
     res.status(200).json({producter});
 };
